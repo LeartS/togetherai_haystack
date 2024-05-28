@@ -7,8 +7,8 @@
 
 At the moment, the integration is limited to embedder components that use Together Embeddings Inference APIs.
 
-* `TogetherTextEmbedder` to embed strings / text
-* `TogetherDocumentEmbedder` to embed list of Haystack documents.
+* `TogetherAITextEmbedder` to embed strings / text
+* `TogetherAIDocumentEmbedder` to embed a collection of Haystack documents.
 
 Refer to Haystack's documentation to see how these can be plugged-in in Haystack Pipelines to build whatever you need to.
 
